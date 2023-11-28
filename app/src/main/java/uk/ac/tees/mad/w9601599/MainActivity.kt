@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 //hello
+    //hello again
     override fun onStart() {
         super.onStart()
         if(FirebaseAuth.getInstance().currentUser==null){
