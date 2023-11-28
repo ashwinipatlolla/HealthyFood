@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-
+//hello
     override fun onStart() {
         super.onStart()
         if(FirebaseAuth.getInstance().currentUser==null){
